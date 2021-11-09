@@ -1,0 +1,117 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+  background: #699eaf;
+  color: black;
+  font-size: 62.5%;
+  font-weight: 400;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.6rem;
+  background: #699eaf;
+  color: black;
+  padding: 4rem 10rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+button {
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+  border: none;
+}
+
+input {
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 150%;
+}
+
+h2 {
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  letter-spacing: 0.01em;
+}
+
+h4 {
+  font-size: 2rem;
+  line-height: 2.9rem;
+  font-weight: 600;
+}
+
+.product__item--inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 4rem;
+}
+
+.product__item--inner > * {
+  width: 25%;
+  height: 20rem;
+  padding: 2rem;
+  border: 1px solid black;
+}
+
+@media only screen and (max-width: 70em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (max-width: 69em) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media only screen and (max-width: 52em) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media only screen and (max-width: 42em) {
+  html {
+    font-size: 25%;
+  }
+}
+
+@media only screen and (max-width: 25em) {
+  html {
+    font-size: 20%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
